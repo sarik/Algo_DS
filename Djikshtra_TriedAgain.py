@@ -37,6 +37,8 @@ class Djikshtra_TriedAgain:
         
 
 
+#note 0 means either self node or not connected,
+#ant use -1 or such since it would refer to even shorter distance
 actualGraph = [[0, 4, 0, 0, 0, 0, 0, 8, 0], 
            [4, 0, 8, 0, 0, 0, 0, 11, 0], 
            [0, 8, 0, 7, 0, 4, 0, 0, 2], 
